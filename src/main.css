@@ -40,6 +40,12 @@ form input {
   border: none;
 }
 
+form #desInput {
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
 form #desInput::placeholder {
   color: rgb(168, 168, 168);
   font-family: "Prompt", sans-serif;
