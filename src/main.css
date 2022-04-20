@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  font-family: "Prompt", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 40px;
+  font-size: 36px;
+}
+
+header form {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Prompt", sans-serif;
+}
+
+header form span {
+  font-size: 20px;
+}
+
+#addButton {
+  font-size: 16px;
+  width: 70px;
+  margin: 40px auto;
+}
+
+form input {
+  background: blueviolet;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+form #desInput::placeholder {
+  color: rgb(168, 168, 168);
+  font-family: "Prompt", sans-serif;
+}
+
+#date {
+  font-family: "Prompt", sans-serif;
+}
+
+#numberInput {
+  font-family: "Prompt", sans-serif;
+}
+
+#numberInput::placeholder {
+  color: rgb(168, 168, 168);
+}
+
+#addButton {
+  background: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+  padding: 5px 15px;
+  color: blueviolet;
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+}
+
+#addButton:hover {
+  color: white;
+  background: blueviolet;
+  transition: 100ms ease-in-out;
+}
+
+section .expense_content {
+  display: flex;
+  justify-content: space-between;
+  background: blueviolet;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+section #expense_container input {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 16px;
+  color: white;
+  font-family: "Prompt", sans-serif;
+}
+
+.delete_button {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Prompt", sans-serif;
+}
